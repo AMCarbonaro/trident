@@ -188,29 +188,38 @@ export default function HomePage() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-4 gap-6">
-            <Card className="p-8 text-center bg-black/50 border-2 border-red-500/30 hover:border-red-500 transition-all hover:shadow-[0_0_20px_rgba(239,68,68,0.3)]">
+          <div className="grid md:grid-cols-4 gap-6 items-center">
+            <Card className="p-8 text-center bg-black/50 border-2 border-red-500/30 hover:border-red-500 transition-all hover:shadow-[0_0_20px_rgba(239,68,68,0.3)] relative">
               <div className="inline-flex p-4 bg-red-950/30 border border-red-500/30 rounded-full mb-4">
                 <Instagram className="h-10 w-10 text-red-400" />
               </div>
               <h3 className="font-bold text-xl mb-3 text-red-300 font-mono">INSTAGRAM</h3>
               <p className="text-sm text-red-400/70 leading-relaxed font-mono">Follow → Follow Back → DM → Conversation</p>
+              <div className="absolute -right-6 top-1/2 transform -translate-y-1/2 hidden md:block">
+                <ArrowRight className="h-8 w-8 text-red-500" />
+              </div>
             </Card>
             
-            <Card className="p-8 text-center bg-black/50 border-2 border-red-500/30 hover:border-red-500 transition-all hover:shadow-[0_0_20px_rgba(239,68,68,0.3)]">
+            <Card className="p-8 text-center bg-black/50 border-2 border-red-500/30 hover:border-red-500 transition-all hover:shadow-[0_0_20px_rgba(239,68,68,0.3)] relative">
               <div className="inline-flex p-4 bg-red-950/30 border border-red-500/30 rounded-full mb-4">
                 <Smartphone className="h-10 w-10 text-red-400" />
               </div>
               <h3 className="font-bold text-xl mb-3 text-red-300 font-mono">SNAPCHAT</h3>
               <p className="text-sm text-red-400/70 leading-relaxed font-mono">Add → Add Back → Snap → Conversation → Heated</p>
+              <div className="absolute -right-6 top-1/2 transform -translate-y-1/2 hidden md:block">
+                <ArrowRight className="h-8 w-8 text-red-500" />
+              </div>
             </Card>
             
-            <Card className="p-8 text-center bg-black/50 border-2 border-red-500/30 hover:border-red-500 transition-all hover:shadow-[0_0_20px_rgba(239,68,68,0.3)]">
+            <Card className="p-8 text-center bg-black/50 border-2 border-red-500/30 hover:border-red-500 transition-all hover:shadow-[0_0_20px_rgba(239,68,68,0.3)] relative">
               <div className="inline-flex p-4 bg-red-950/30 border border-red-500/30 rounded-full mb-4">
                 <Target className="h-10 w-10 text-red-400" />
               </div>
               <h3 className="font-bold text-xl mb-3 text-red-300 font-mono">THE ASK</h3>
               <p className="text-sm text-red-400/70 leading-relaxed font-mono">Make The Ask → Deliver → Get Paid</p>
+              <div className="absolute -right-6 top-1/2 transform -translate-y-1/2 hidden md:block">
+                <ArrowRight className="h-8 w-8 text-red-500" />
+              </div>
             </Card>
             
             <Card className="p-8 text-center bg-black/50 border-2 border-red-500/30 hover:border-red-500 transition-all hover:shadow-[0_0_20px_rgba(239,68,68,0.3)]">
