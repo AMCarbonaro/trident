@@ -52,19 +52,19 @@ export default function HomePage() {
                 trident
               </span>
               <span className="block text-3xl md:text-4xl lg:text-5xl font-bold text-red-400 mt-4 font-mono">
-                &gt; CRM SYSTEM ONLINE
+                &gt; CRM SYSTEM for Content Creators
               </span>
             </h1>
 
             {/* Subheading */}
             <p className="text-xl md:text-2xl text-red-300 mb-6 max-w-4xl mx-auto leading-tight font-mono">
-              <span className="text-red-500">&gt;</span> From Instagram follow to satisfied customer—<br className="hidden md:block" />
+              <span className="text-red-500">&gt;</span> From Instagram to snapchat to satisfied customer—<br className="hidden md:block" />
               <span className="text-red-400">track every relationship</span> in one terminal
             </p>
 
             {/* Description */}
             <p className="text-lg md:text-xl text-red-400/80 mb-10 max-w-3xl mx-auto leading-relaxed font-mono">
-              <span className="text-red-500">&gt;</span> No spreadsheets. No complexity. Just drag, drop, and watch your pipeline execute.<br />
+              <span className="text-red-500">&gt;</span> No rifraf. No complexity. Just drag, drop, and watch your pipeline execute.<br />
               Built for creators who value genuine connections over quick conversions.
             </p>
 
